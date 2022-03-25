@@ -1,0 +1,54 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.body {
+  background-color: #ffffff;
+}
+.container {
+  background-color: #ffb5e6;
+  width: 750px;
+  height: 400px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 10px 10px 0px 0px #008697;
+}
+
+.top-container {
+  text-align: center;
+  padding: 25px 0;
+  font-size: 30px;
+  letter-spacing: 15px;
+  color: #007f97;
+}
+
+.middle-container {
+  text-align: center;
+  font-size: 100px;
+}
+
+.bottom-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 70px 0 0;
+}
+
+.bottom-container button {
+  font-size: 30px;
+  padding: 5px 10px;
+  background: transparent;
+  border: 1px solid #c71585;
+  box-shadow: 2px 2px 3px 2px #c71585;
+  cursor: pointer;
+  margin: 5px 10px;
+  border-radius: 5px;
+  letter-spacing: 1px;
+}
+
+.account-amount-value {
+  color: #1778cb;
+}
